@@ -37,7 +37,32 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+Name:Jayamani.R
+Reg no:212222100014
+```C#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class jm : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 70 * Time.deltaTime);
+    }
+}
+
+```
 
 ## Output:
+![vrexp1](https://github.com/Jayamani25/Rotating-the-Gaming-Object/assets/85949888/c7bc78f4-77aa-4fcb-9d1c-7d0a57fd6732)
 
 ## Result:
+The object was created and rotated successfully using unity and visual studio code.
